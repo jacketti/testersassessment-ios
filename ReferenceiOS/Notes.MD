@@ -9,6 +9,7 @@ to do:
     [x] test initial label
 [x] implement second UI test
     [x] press the button to change the label
+[x]  implement third test to show BaseTest use
     
     
 ***
@@ -27,4 +28,4 @@ Each screen will have its own screen robot where the elements and functions are 
 The BaseTest class is the class for basic test functions that are not part of screens or robots, but part of testing setup, like determining a date that is used in a test or handle permissions
 ***
 
-
+I made a third test to reset the app, so you can see the function of the Robot

@@ -9,4 +9,10 @@ import XCTest
 
 class Robot {
     var app = XCUIApplication()
+    
+    public func resetApp() -> CurrencyRobot {
+        app.terminate()
+        app.launch()
+        return CurrencyRobot()
+    }
 }

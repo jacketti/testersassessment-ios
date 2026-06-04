@@ -15,4 +15,14 @@ class ChangeLabelTest: BaseTest {
             .pressButton()
             .labelShouldNotBeHello()
     }
+
+    func testResetLabel() {
+        Launcher()
+            .launchApp()
+            .initialLabelShouldBeHello()
+            .pressButton()
+            .labelShouldNotBeHello()
+            .resetApp()
+            .initialLabelShouldBeHello()
+    }
 }
