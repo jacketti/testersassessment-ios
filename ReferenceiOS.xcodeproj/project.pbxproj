@@ -15,6 +15,7 @@
 		05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */; };
 		05D03C98224BBCCC005F6F05 /* CurrencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */; };
 		05D03C9A224BBDC2005F6F05 /* CurrencyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */; };
+		FB5D140D2FD1F6890063CC2E /* Notes.MD in Resources */ = {isa = PBXBuildFile; fileRef = FB5D140C2FD1F6840063CC2E /* Notes.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		05D03C8B224BA0FD005F6F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelper.swift; sourceTree = "<group>"; };
 		05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelperTests.swift; sourceTree = "<group>"; };
+		FB5D140C2FD1F6840063CC2E /* Notes.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.MD; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		05D03C68224BA0FB005F6F05 /* ReferenceiOS */ = {
 			isa = PBXGroup;
 			children = (
+				FB5D140C2FD1F6840063CC2E /* Notes.MD */,
 				05D03C69224BA0FB005F6F05 /* AppDelegate.swift */,
 				05D03C6B224BA0FB005F6F05 /* ViewController.swift */,
 				05D03C6D224BA0FB005F6F05 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5D140D2FD1F6890063CC2E /* Notes.MD in Resources */,
 				05D03C74224BA0FD005F6F05 /* LaunchScreen.storyboard in Resources */,
 				05D03C71224BA0FD005F6F05 /* Assets.xcassets in Resources */,
 				05D03C6F224BA0FB005F6F05 /* Main.storyboard in Resources */,
