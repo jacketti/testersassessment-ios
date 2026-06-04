@@ -17,8 +17,17 @@ class CurrencyRobot: Robot {
         return self
     }
 
+    func getText() -> String {
+        return app.staticTexts["label"].label
+    }
+
     func initialLabelShouldBeHello() -> Self {
-        XCTAssertEqual(displayedText, "Hello", "Should be Hello")
+        XCTAssertEqual(getText(), "Hello", "Should be Hello")
+        return self
+    }
+
+    func labelShouldNotBeHello() -> Self {
+        XCTAssertNotEqual(getText(), "Hello", "Should not be Hello")
         return self
     }
 }
