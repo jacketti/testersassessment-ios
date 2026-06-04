@@ -16,6 +16,11 @@
 		05D03C98224BBCCC005F6F05 /* CurrencyHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */; };
 		05D03C9A224BBDC2005F6F05 /* CurrencyHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */; };
 		FB5D140D2FD1F6890063CC2E /* Notes.MD in Resources */ = {isa = PBXBuildFile; fileRef = FB5D140C2FD1F6840063CC2E /* Notes.MD */; };
+		FB5D14122FD1F7FC0063CC2E /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D14112FD1F7FA0063CC2E /* Launcher.swift */; };
+		FB5D14142FD1F8D60063CC2E /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D14132FD1F8D50063CC2E /* Robot.swift */; };
+		FB5D14162FD1F9450063CC2E /* CurrencyRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D14152FD1F9420063CC2E /* CurrencyRobot.swift */; };
+		FB5D14182FD1F9D20063CC2E /* InitialLabelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D14172FD1F9CE0063CC2E /* InitialLabelTest.swift */; };
+		FB5D141A2FD1FA240063CC2E /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D14192FD1FA220063CC2E /* BaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		05D03C97224BBCCC005F6F05 /* CurrencyHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelper.swift; sourceTree = "<group>"; };
 		05D03C99224BBDC2005F6F05 /* CurrencyHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyHelperTests.swift; sourceTree = "<group>"; };
 		FB5D140C2FD1F6840063CC2E /* Notes.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.MD; sourceTree = "<group>"; };
+		FB5D14112FD1F7FA0063CC2E /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
+		FB5D14132FD1F8D50063CC2E /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		FB5D14152FD1F9420063CC2E /* CurrencyRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRobot.swift; sourceTree = "<group>"; };
+		FB5D14172FD1F9CE0063CC2E /* InitialLabelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLabelTest.swift; sourceTree = "<group>"; };
+		FB5D14192FD1FA220063CC2E /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,10 +135,39 @@
 		05D03C88224BA0FD005F6F05 /* ReferenceiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
+				FB5D14102FD1F7EF0063CC2E /* Tests */,
+				FB5D140F2FD1F7E40063CC2E /* Utils */,
+				FB5D140E2FD1F7DC0063CC2E /* Robots */,
 				05D03C89224BA0FD005F6F05 /* ReferenceiOSUITests.swift */,
 				05D03C8B224BA0FD005F6F05 /* Info.plist */,
 			);
 			path = ReferenceiOSUITests;
+			sourceTree = "<group>";
+		};
+		FB5D140E2FD1F7DC0063CC2E /* Robots */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D14152FD1F9420063CC2E /* CurrencyRobot.swift */,
+				FB5D14132FD1F8D50063CC2E /* Robot.swift */,
+			);
+			path = Robots;
+			sourceTree = "<group>";
+		};
+		FB5D140F2FD1F7E40063CC2E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D14112FD1F7FA0063CC2E /* Launcher.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FB5D14102FD1F7EF0063CC2E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D14192FD1FA220063CC2E /* BaseTest.swift */,
+				FB5D14172FD1F9CE0063CC2E /* InitialLabelTest.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D03C8A224BA0FD005F6F05 /* ReferenceiOSUITests.swift in Sources */,
+				FB5D14142FD1F8D60063CC2E /* Robot.swift in Sources */,
+				FB5D14122FD1F7FC0063CC2E /* Launcher.swift in Sources */,
+				FB5D14162FD1F9450063CC2E /* CurrencyRobot.swift in Sources */,
+				FB5D141A2FD1FA240063CC2E /* BaseTest.swift in Sources */,
+				FB5D14182FD1F9D20063CC2E /* InitialLabelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
